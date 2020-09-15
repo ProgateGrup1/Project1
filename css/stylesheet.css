@@ -168,6 +168,30 @@ a, li {
   overflow: hidden;
 }
 
+/*Reservation Section CSS*/
+#reservation-section{
+  background: url(../img/bgcontact.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100% ;
+  padding-bottom: 3%;
+}
+
+#reservation-section .container h2{
+  text-align: center;
+  text-decoration: underline;
+  font-style: initial;
+  text-underline-position: under;
+  color: rgba(200,100,50,1);
+  letter-spacing: 5px;   
+}
+
+#reservation-section .container form{
+  text-align:center ;
+}
+
+
 /*CSS Our Team*/
 .pteam {
   padding: 0 40px;
