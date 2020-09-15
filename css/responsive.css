@@ -1,10 +1,7 @@
 
 /* for Tablets */
 @media all and (max-width: 1000px) {
-  .main-article{
-    width: 50%;
-    margin-bottom: 50px;
-  }
+
 
   .header-container h1 {
     font-size: 32px;
