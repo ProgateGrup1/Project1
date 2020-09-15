@@ -371,38 +371,4 @@ footer .footer-content .footer-section {
 }
 /* footer and by agam */
 
-.flex-list {
-  display: flex;
-}
-.flex-list li {
-  flex: auto;
-}
-
-
-@media (max-width: 1000px) {
-  .flex-list {
-    flex-wrap: wrap;
-  }
-  .flex-list li {
-    width: 50%;
-  }
-}
-
-
-}
-
-
-@media (max-width: 670px) {
-  
-  .flex-list {
-    flex-direction: column;
-  }
-  
-  
-  .flex-list li {
-    margin: 0 auto;
-  }
-  
-}
-
 
