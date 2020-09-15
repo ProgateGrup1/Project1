@@ -15,6 +15,14 @@
   .main-article-left h1 {
     font-size: 32px;
   }
+  .cardteam {
+    flex-wrap: wrap;
+  }
+
+  .cardteam .card {
+      width: 25%;
+      margin: 10px 15px;
+  }
 
 }
 
@@ -59,6 +67,15 @@
   .main-article-left p {
     font-size: 14px;
     line-height: 20px;
+  }
+
+  .cardteam {
+    flex-direction: column;
+  }
+
+  .cardteam .card {
+      width: 75%;
+      margin: 10px auto;
   }
   
 }
