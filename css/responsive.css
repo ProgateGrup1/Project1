@@ -1,7 +1,7 @@
 
 /* for Tablets */
 @media all and (max-width: 1000px) {
-  .main-article-right {
+  .main-article{
     width: 50%;
     margin-bottom: 50px;
   }
