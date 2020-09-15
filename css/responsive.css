@@ -1,0 +1,54 @@
+
+/* for Tablets */
+@media all and (max-width: 1000px) {
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  .header-container h1 {
+    font-size: 32px;
+  }
+  .landing-page-container h1 {
+    font-size: 32px;
+  }
+
+}
+
+/* for Smartphones */
+@media all and (max-width: 670px) {
+  
+  footer {
+    text-align: center;
+  }
+  
+  .main-article {
+    text-align: left;
+  }
+   
+  .header-container {
+    display: none;
+  }
+  
+ 
+  .menu-icon {
+    display: block;
+  }
+ 
+  
+  .header-container h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .landing-page-container h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  
+  /* Tambahkan CSS untuk tag <p> didalam top-wrapper */
+  .landing-page-container p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  
+}
