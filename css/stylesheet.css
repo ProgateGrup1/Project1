@@ -251,7 +251,7 @@ section .container .contactForm h2
 }
 section .container .contactForm .formBox
 {
-    padding: relative;
+    padding: relatve;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -417,20 +417,7 @@ footer .footer-content .footer-section {
   font-size: 18px !important;
 }
 /* footer and by agam */
-.person {
-  width: 600px;
-  margin: auto;
-}
-.person img{
-  width:600px;
-}
-.main-article-right{
-  width: 600px;
-  margin: auto;
-}
-.main-article-right img{
-  width:600px;
-}
+
 .flex-list {
   display: flex;
 }
@@ -438,14 +425,8 @@ footer .footer-content .footer-section {
   flex: auto;
 }
 
-/* for Tablet */
+
 @media (max-width: 1000px) {
-  .person img{
-  width:550px;
-}
-  .main-article-right img{
-  width:550px;
-}
   .flex-list {
     flex-wrap: wrap;
   }
@@ -453,20 +434,22 @@ footer .footer-content .footer-section {
     width: 50%;
   }
 }
-/* for Smartphone */
+
+
+}
+
+
 @media (max-width: 670px) {
-  .person img{
-  width:400px;
-}
-  .main-article-right img{
-  width:400px;
-}
- 
+  
   .flex-list {
     flex-direction: column;
   }
+  
+  
   .flex-list li {
     margin: 0 auto;
-  }  
+  }
+  
 }
+
 
