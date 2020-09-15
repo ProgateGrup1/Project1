@@ -23,6 +23,15 @@ a, li {
   position: fixed;
   z-index: 10;
 }
+/* Tambahkan CSS untuk menu-icon */
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  /* Gantikan property display ke none */
+  display: none;
+}
 .header-container {
   width: 85%;
   margin: auto;
@@ -409,3 +418,30 @@ footer .footer-content .footer-section {
   font-size: 18px !important;
 }
 /* footer and by agam */
+.flex-list {
+  display: flex;
+}
+.flex-list li {
+  flex: auto;
+}
+
+/* for Tablet */
+@media (max-width: 1000px) {
+  .flex-list {
+    flex-wrap: wrap;
+  }
+  .flex-list li {
+    width: 50%;
+  }
+}
+/* for Smartphone */
+@media (max-width: 670px) {
+ 
+  .flex-list {
+    flex-direction: column;
+  }
+  .flex-list li {
+    margin: 0 auto;
+  }  
+}
+
