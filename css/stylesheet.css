@@ -161,12 +161,6 @@ a, li {
   height: auto;
 }
 /* INI END DARI BAGIAN ARTIKEL 1 */
-/* CSS contact by agam */
-.container{
-  width: 90%;
-  margin: auto;
-  overflow: hidden;
-}
 
 /*Reservation Section CSS*/
 #reservation-section{
@@ -190,7 +184,6 @@ a, li {
 #reservation-section .container form{
   text-align:center ;
 }
-
 
 /*CSS Our Team*/
 .pteam {
@@ -281,7 +274,12 @@ hr {
   width: 35px;
 }
 
-/* contact form css */
+/* CSS contact by agam */
+.container{
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
 #contact-section{
   background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.9)),url(../img/bgcontact.jpg);
   background-size: cover;
