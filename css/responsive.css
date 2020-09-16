@@ -86,13 +86,13 @@
 }
 
 @keyframes slide-in {
- from {right: -280px;}
- to {right: 0;}
+ from {left: -280px;}
+ to {left: 0;}
 }
 
 @keyframes slide-out {
- from {right: 0;}
- to {right: -280px;}
+ from {left: 0;}
+ to {left: -280px;}
 }
  
 
