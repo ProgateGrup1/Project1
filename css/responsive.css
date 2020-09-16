@@ -46,7 +46,7 @@
 }
 
 
-#tag-menu:checked ~ div.jw-drawer {
+#tag-menu:checked ~ div.header-container {
  animation: slide-in 0.5s ease;
  animation-fill-mode: forwards;
 }
