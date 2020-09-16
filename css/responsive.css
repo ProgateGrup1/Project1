@@ -34,8 +34,7 @@
   }
   
   .main-article {
-    text-align: center;
-    flex-direction: column;
+    text-align: left;
   }
    
   .header-container {
