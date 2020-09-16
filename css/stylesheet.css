@@ -105,12 +105,11 @@ a, li {
 /* INI END DARI MAIN*/
 /* INI START DARI ARTIKEL 1*/
 .main-article {
-  height: 50vw;
-  width: 100%;
+  width: 90%;
+  padding-bottom: 3vw;
 }
 .main-article-container {
   width: 90%;
-  height: 50vw;
   margin: auto;
   display: flex;
   justify-content: center;
@@ -118,7 +117,7 @@ a, li {
 }
 .main-article-left {
   font-family: monospace;
-  width: 50%;
+  width: 50vw;
   padding-left: 15%;
 }
 .main-article-left h1 {
@@ -126,7 +125,7 @@ a, li {
   margin-bottom: 2vw;
 }
 .main-article-left p {
-  width: 70%;
+  width: 25vw;
   font-size: 1.5vw;
   line-height: 2vw;
 }
@@ -161,6 +160,12 @@ a, li {
   height: auto;
 }
 /* INI END DARI BAGIAN ARTIKEL 1 */
+/* CSS contact by agam */
+.container{
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
 
 /*Reservation Section CSS*/
 #reservation-section{
@@ -184,6 +189,7 @@ a, li {
 #reservation-section .container form{
   text-align:center ;
 }
+
 
 /*CSS Our Team*/
 .pteam {
@@ -274,12 +280,7 @@ hr {
   width: 35px;
 }
 
-/* CSS contact by agam */
-.container{
-  width: 90%;
-  margin: auto;
-  overflow: hidden;
-}
+/* contact form css */
 #contact-section{
   background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.9)),url(../img/bgcontact.jpg);
   background-size: cover;
@@ -496,5 +497,3 @@ footer .footer-content .footer-section {
   font-size: 18px !important;
 }
 /* footer and by agam */
-
-
