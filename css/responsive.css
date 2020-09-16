@@ -46,12 +46,12 @@
 }
 
 
-#tag-menu:checked ~ div.slide-menu {
+#tag-menu:checked ~ div.header-container {
  animation: slide-in 0.5s ease;
  animation-fill-mode: forwards;
 }
 
-.slide-menu {
+.header-container {
 	position:fixed;
 	left:-280px;
 	background-color:#006faa;
@@ -62,11 +62,11 @@
 	animation-fill-mode: forwards;
 }
 
-.slide-menu ul li {
+.header-container ul li {
 	list-style:none;
 }
 
-.slide-menu ul li a {
+.header-container ul li a {
 	padding:10px 20px;
 	text-decoration:none;
 	display:block;
@@ -74,11 +74,11 @@
 	border-top:1px solid #059;
 }
 
-.slide-menu ul li a:hover{
+.header-container ul li a:hover{
 	background-color:rgba(0, 0, 0, 0.1);
 }
 
-.slide-menu ul li a i {
+.header-container ul li a i {
 	width:50px;
 	height:35px;
 	text-align:center;
@@ -95,9 +95,7 @@
  to {left: -280px;}
 }
  
-  .menu-icon {
-    display: block;
-  }
+
  
   
   .header-container h1 {
