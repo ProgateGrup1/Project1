@@ -41,7 +41,59 @@
   .header-container {
     display: none;
   }
-  
+  #tag-menu {
+	display:none;
+}
+
+
+#tag-menu:checked ~ div.jw-drawer {
+ animation: slide-in 0.5s ease;
+ animation-fill-mode: forwards;
+}
+
+.header-container {
+	position:fixed;
+	left:-280px;
+	background-color:#006faa;
+	height:100%;
+	z-index:100;
+	width:230px;
+	animation: slide-out 0.5s ease;
+	animation-fill-mode: forwards;
+}
+
+.header-container ul li {
+	list-style:none;
+}
+
+.header-container ul li a {
+	padding:10px 20px;
+	text-decoration:none;
+	display:block;
+	color:#FFF;
+	border-top:1px solid #059;
+}
+
+.header-container ul li a:hover{
+	background-color:rgba(0, 0, 0, 0.1);
+}
+
+.header-container ul li a i {
+	width:50px;
+	height:35px;
+	text-align:center;
+	padding-top:15px;
+}
+
+@keyframes slide-in {
+ from {left: -280px;}
+ to {left: 0;}
+}
+
+@keyframes slide-out {
+ from {left: 0;}
+ to {left: -280px;}
+}
  
   .menu-icon {
     display: block;
