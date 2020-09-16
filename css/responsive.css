@@ -42,7 +42,7 @@
     display: none;
   }
 
-.menu-bar {
+.menu-icon {
 	color:#FFF;
 	font-size:25px;
 	cursor:pointer;
@@ -52,7 +52,7 @@
 	margin-bottom:5px;
 }
 
-.menu-bar:hover {
+.menu-icon:hover {
 	background-color:rgba(0, 0, 0, 0.1);
 	border-radius:50px;
 }
