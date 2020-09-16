@@ -68,6 +68,9 @@
     font-size: 14px;
     line-height: 20px;
   }
+  .main-article-left{
+    flex-direction: column;
+  }
   .main-article-right{
     flex-direction: column;
   }
