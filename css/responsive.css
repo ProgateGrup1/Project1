@@ -69,7 +69,7 @@
     line-height: 20px;
   }
   .main-article-left{
-    flex-direction: column;
+     display: none;
   }
   .main-article-right{
     flex-direction: column;
