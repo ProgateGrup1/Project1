@@ -68,7 +68,9 @@
     font-size: 14px;
     line-height: 20px;
   }
-
+  .main-article-right{
+    flex-direction: column;
+  }
   .cardteam {
     flex-direction: column;
   }
