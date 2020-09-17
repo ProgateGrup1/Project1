@@ -5,7 +5,7 @@
     <!-- Set the character encoding to "utf-8" -->
     <meta charset="utf-8">
     <!-- Tetapkan viewport menggunakan tag <meta> -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     
     <!-- Set the title to "Progate" -->
     <title>Progate</title>
@@ -14,22 +14,27 @@
     <link rel="stylesheet" href="css/stylesheet.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- Script -->   
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>  
   </head>
   <body>
-    <!-- INI START BAGIAN HEADER, MAIN, DAN ARTIKEL PERTAMA-->
+   <!-- INI START BAGIAN HEADER, MAIN, DAN ARTIKEL PERTAMA-->
     <div class="welcome-page">
       <div class="header">
-        <span class="fa fa-bars menu-icon"></span>
         <div class="header-container">
-          <h1>Group 1</h1>
+          <nav>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#Menu">Menu</a></li>
-            <li><a href="#Reservation">Reservation</a></li>
-            <li><a href="#Tim">Team</a></li>
-            <li><a href="#">Blogs</a></li>
-            <li><a href="#Contact">Contacts</a></li>
+            <li class="logo">Group 1</li>
+            <li class="items"><a href="#">Home</a></li>
+            <li class="items"><a href="#Menu">Menu</a></li>
+            <li class="items"><a href="#Reservation">Reservation</a></li>
+            <li class="items"><a href="#Tim">Team</a></li>
+            <li class="items"><a href="#">Blogs</a></li>
+            <li class="items"><a href="#Contact">Contacts</a></li>
+            <li class="btn"><a href="#"><i class="fas fa-bars"></i></a></li>
           </ul>
+          </nav>
         </div>
       </div>
       <div class="landing-page">
@@ -287,5 +292,14 @@
     <div class="Copyright">&copy;2020 Copyright & Desain oleh Group1 Start Exploration</div>
 </footer>
 <!-- ini bagian akhir footer by agam-->
+<!-- Code Script--->
+<script>
+      $(document).ready(function(){
+        $('.btn').click(function(){
+          $('.items').toggleClass("show");
+          $('ul li').toggleClass("hide");
+        });
+      });
+    </script>
   </body>
 </html>
