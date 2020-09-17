@@ -117,9 +117,7 @@ nav ul li.btn.hide i:before{
       width: 25%;
       margin: 10px 15px;
   }
-
 }
-
 /* for Smartphones */
 @media all and (max-width: 670px) {
 nav{
@@ -143,17 +141,14 @@ nav{
   nav ul li.items:hover:after{
     opacity: 0;
   }
-}
+
   footer {
     text-align: center;
   }
-  
   .main-article {
     text-align: left;
     width: 100%
   }
-   
-  
   .main-article-container {
     display: flex;
     flex-direction: column;
@@ -161,21 +156,17 @@ nav{
   .main-article-left {
     margin-top: 5vw;
   }
-  
-  
   .main-article-left p {
     width: 100%;
     font-size: 3vw;
     line-height: 3vw;
   }
- 
   .cardteam {
     flex-direction: column;
   }
-
   .cardteam .card {
       width: 75%;
       margin: 10px auto;
   }
-  
 }
+
