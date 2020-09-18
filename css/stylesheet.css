@@ -45,7 +45,6 @@ a, li {
   float: right;
   display: flex;
   align-items: center;
-  margin: 1.5vw;
 }
 .header-container li {
   float: left;
